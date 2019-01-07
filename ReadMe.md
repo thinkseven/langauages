@@ -27,3 +27,7 @@
 # List of sample codes and projects in this repository
 
 - Fibonacci Sequence
+
+# References
+
+- https://en.wikipedia.org/wiki/Comparison_of_C_Sharp_and_Java
