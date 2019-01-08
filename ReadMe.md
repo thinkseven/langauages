@@ -28,6 +28,10 @@
 
 - Fibonacci Sequence
 
+# List of concepts and their code samples
+
+- Delegates
+
 # References
 
 - https://en.wikipedia.org/wiki/Comparison_of_C_Sharp_and_Java
