@@ -1,3 +1,8 @@
 */C#/Code/bin
 */C#/Code/obj
 */Java/*.class
+.vscode/*
+*/bin/*
+*/obj/*
+.vs/*
+.DS_Store
