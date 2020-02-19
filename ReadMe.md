@@ -1,37 +1,28 @@
 # Commands
-
-## .NET Core
-
-### Create and Run project
-
+## .NET Core/C#
+### create and run project
+```bash
+dotnet new console -n Code
+dotnet run
 ```
-  dotnet new console -n Code
-```
-
-```
-  dotnet run
-```
-
 ## Java
-
-### Run java code
-
+### run java examples
+```bash
+source ./Scripts/run-java.sh
+cd java-examples
+./mvnw clean install
+./mvnw -Dtest=TestApp1 test
+./mvnw -Dtest=TestApp1,TestApp2 test
+./mvnw -Dtest=TestApp1#methodname test
+./mvnw -Dtest=TestApp1#testHello* test
+./mvnw -Dtest=TestApp1#testHello*+testMagic* test
 ```
-  javac Program.java
-```
-
-```
-  java Program
-```
-
-# List of sample codes and projects in this repository
-
+## Javascript
+## Python
+# List of examples
 - Fibonacci Sequence
-
-# List of concepts and their code samples
-
+# List of concepts
 - Delegates
-
 # References
 
 - https://en.wikipedia.org/wiki/Comparison_of_C_Sharp_and_Java
