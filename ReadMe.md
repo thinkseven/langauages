@@ -1,6 +1,10 @@
 # Commands
 ## .NET Core/C#
 ### create and run project
+```iecst
+using xUnit test framework
+https://xunit.net/
+```
 ```bash
 dotnet new sln -o dotnet-examples
 cd dotnet-examples
@@ -14,6 +18,10 @@ dotnet test
 ```
 ## Java
 ### run java examples
+```iecst
+JUnit 5
+https://junit.org/junit5/
+```
 ```bash
 source ./Scripts/run-java.sh
 cd java-examples
@@ -25,6 +33,13 @@ cd java-examples
 ./mvnw -Dtest=TestApp1#testHello*+testMagic* test
 ```
 ## Javascript
+```iecst
+using JEST
+https://jestjs.io/en/
+```
+```bash
+npm test
+```
 ## Python
 # List of examples
 - Fibonacci Sequence
