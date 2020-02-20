@@ -10,10 +10,15 @@
 
 package com.example.project;
 
-public class Calculator {
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-	public int add(int a, int b) {
-		return a + b;
+import org.junit.jupiter.api.Test;
+
+class fibonacciTest {
+
+	@Test
+	void Test1() {
+		fibonacci _fib = new fibonacci();
+		assertEquals(3, _fib.get(4));
 	}
-
 }
