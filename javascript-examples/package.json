@@ -4,16 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha './src/**/*.spec.js' --watch --recursive --require @babel/polyfill --require @babel/register"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.8.4",
-    "@babel/polyfill": "^7.8.3",
     "@babel/preset-env": "^7.8.4",
-    "@babel/register": "^7.8.3",
-    "chai": "^4.2.0",
-    "mocha": "^7.0.1"
+    "babel-jest": "^25.1.0",
+    "jest": "^25.1.0"
   }
 }
