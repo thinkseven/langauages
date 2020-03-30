@@ -146,8 +146,8 @@ const getTransactions = () => {
         }, 0);
 
         return Object.assign(entry, {
-            rolloverBalance1,
-            rolloverBalance2
+            rolloverBalance1: parseFloat(rolloverBalance1.toFixed(2)),
+            rolloverBalance2: parseFloat(rolloverBalance2.toFixed(2))
         });
     })
 }

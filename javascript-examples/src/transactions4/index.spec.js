@@ -15,8 +15,7 @@ const mergedTransactions = {
                     comments: 'Salary Credit',
                     createdDate: '2020-03-27T01:34:03.000+0000',
                     modifiedDate: '2020-03-27T03:15:38.000+0000',
-                    rolloverBalance1: 3602.87,
-                    rolloverBalance2: 1218.6
+                    rolloverBalance: 3275.72
                 },
                 {
                     transactionId: 9,
@@ -28,8 +27,7 @@ const mergedTransactions = {
                     comments: 'Salary Credit',
                     createdDate: '2020-03-27T01:34:12.000+0000',
                     modifiedDate: '2020-03-29T14:22:48.000+0000',
-                    rolloverBalance1: 3602.87,
-                    rolloverBalance2: 2718.6
+                    rolloverBalance: 2391.45
                 }
             ]
         },
@@ -45,8 +43,7 @@ const mergedTransactions = {
                     comments: 'Transfer to GS',
                     createdDate: '2020-03-27T01:35:23.000+0000',
                     modifiedDate: '2020-03-29T14:12:19.000+0000',
-                    rolloverBalance1: 2902.87,
-                    rolloverBalance2: 2718.6
+                    rolloverBalance: 2575.72
                 },
                 {
                     transactionId: 11,
@@ -58,8 +55,7 @@ const mergedTransactions = {
                     comments: 'Transfer to GS',
                     createdDate: '2020-03-27T01:35:32.000+0000',
                     modifiedDate: '2020-03-27T01:35:32.000+0000',
-                    rolloverBalance1: 2902.87,
-                    rolloverBalance2: 2218.6
+                    rolloverBalance: 1891.45
                 }
             ]
         }
@@ -77,8 +73,7 @@ const mergedTransactions = {
                     comments: 'Rent 04/01',
                     createdDate: '2020-03-27T00:09:14.000+0000',
                     modifiedDate: '2020-03-29T04:41:23.000+0000',
-                    rolloverBalance1: 2902.87,
-                    rolloverBalance2: 1039.82
+                    rolloverBalance: 712.67
                 },
                 {
                     transactionId: 5,
@@ -90,8 +85,7 @@ const mergedTransactions = {
                     comments: 'Rent 04/01',
                     createdDate: '2020-03-27T00:09:06.000+0000',
                     modifiedDate: '2020-03-29T04:41:18.000+0000',
-                    rolloverBalance1: 1724.09,
-                    rolloverBalance2: 1039.82
+                    rolloverBalance: 1396.94
                 }
             ]
         },
@@ -107,8 +101,7 @@ const mergedTransactions = {
                     comments: 'Payment Received',
                     createdDate: '2020-03-29T14:11:14.000+0000',
                     modifiedDate: '2020-03-29T14:18:00.000+0000',
-                    rolloverBalance1: 1724.09,
-                    rolloverBalance2: 1039.82
+                    rolloverBalance: 36643.55
                 },
                 {
                     transactionId: 36,
@@ -120,8 +113,7 @@ const mergedTransactions = {
                     comments: 'Payment Received',
                     createdDate: '2020-03-29T14:11:19.000+0000',
                     modifiedDate: '2020-03-29T14:12:48.000+0000',
-                    rolloverBalance1: 1724.09,
-                    rolloverBalance2: 1039.82
+                    rolloverBalance: 47712.67
                 },
                 {
                     transactionId: 37,
@@ -133,8 +125,7 @@ const mergedTransactions = {
                     comments: 'Payment Received',
                     createdDate: '2020-03-29T14:11:25.000+0000',
                     modifiedDate: '2020-03-29T14:18:26.000+0000',
-                    rolloverBalance1: 1724.09,
-                    rolloverBalance2: 1039.82
+                    rolloverBalance: 731.29
                 }
             ]
         }
@@ -152,8 +143,7 @@ const mergedTransactions = {
                     comments: 'Payment to Chase Credit Card',
                     createdDate: '2020-03-27T01:36:19.000+0000',
                     modifiedDate: '2020-03-29T02:35:06.000+0000',
-                    rolloverBalance1: 1724.09,
-                    rolloverBalance2: 504.69999999999993
+                    rolloverBalance: 177.55
                 }
             ]
         },
@@ -169,8 +159,7 @@ const mergedTransactions = {
                     comments: 'Payment Received',
                     createdDate: '2020-03-29T14:14:14.000+0000',
                     modifiedDate: '2020-03-29T14:14:14.000+0000',
-                    rolloverBalance1: 1724.09,
-                    rolloverBalance2: 504.69999999999993
+                    rolloverBalance: 58.92
                 }
             ]
         }
@@ -188,8 +177,7 @@ const mergedTransactions = {
                     comments: 'Payment to BOFA Credit Card',
                     createdDate: '2020-03-27T01:36:51.000+0000',
                     modifiedDate: '2020-03-28T22:46:04.000+0000',
-                    rolloverBalance1: 1583.27,
-                    rolloverBalance2: 504.69999999999993
+                    rolloverBalance: 1256.12
                 }
             ]
         },
@@ -205,8 +193,7 @@ const mergedTransactions = {
                     comments: 'Payment Received',
                     createdDate: '2020-03-29T14:15:17.000+0000',
                     modifiedDate: '2020-03-29T14:15:17.000+0000',
-                    rolloverBalance1: 1583.27,
-                    rolloverBalance2: 504.69999999999993
+                    rolloverBalance: 71.77
                 }
             ]
         }
@@ -224,8 +211,7 @@ const mergedTransactions = {
                     comments: "Payment to BJ's Credit Card",
                     createdDate: '2020-03-27T01:37:38.000+0000',
                     modifiedDate: '2020-03-29T14:22:45.000+0000',
-                    rolloverBalance1: 1256.09,
-                    rolloverBalance2: 504.69999999999993
+                    rolloverBalance: 928.94
                 }
             ]
         },
@@ -241,8 +227,7 @@ const mergedTransactions = {
                     comments: 'Payment Received',
                     createdDate: '2020-03-29T14:16:31.000+0000',
                     modifiedDate: '2020-03-29T14:22:55.000+0000',
-                    rolloverBalance1: 1256.09,
-                    rolloverBalance2: 504.69999999999993
+                    rolloverBalance: 155.07
                 }
             ]
         }
@@ -260,8 +245,7 @@ const mergedTransactions = {
                     comments: 'national grid electricitiy bill',
                     createdDate: '2020-03-27T01:38:11.000+0000',
                     modifiedDate: '2020-03-29T14:54:39.000+0000',
-                    rolloverBalance1: 1082.78,
-                    rolloverBalance2: 504.69999999999993
+                    rolloverBalance: 755.63
                 }
             ]
         }
@@ -279,8 +263,7 @@ const mergedTransactions = {
                     comments: 'Payment for car loan',
                     createdDate: '2020-03-27T01:39:45.000+0000',
                     modifiedDate: '2020-03-29T14:20:25.000+0000',
-                    rolloverBalance1: 606.29,
-                    rolloverBalance2: 504.69999999999993
+                    rolloverBalance: 279.14
                 }
             ]
         },
@@ -296,8 +279,7 @@ const mergedTransactions = {
                     comments: 'Payment Received',
                     createdDate: '2020-03-29T14:17:25.000+0000',
                     modifiedDate: '2020-03-29T14:53:34.000+0000',
-                    rolloverBalance1: 606.29,
-                    rolloverBalance2: 504.69999999999993
+                    rolloverBalance: 5256.69
                 }
             ]
         }
@@ -315,8 +297,7 @@ const mergedTransactions = {
                     comments: 'Salary Credit',
                     createdDate: '2020-03-27T01:40:17.000+0000',
                     modifiedDate: '2020-03-29T04:35:13.000+0000',
-                    rolloverBalance1: 606.29,
-                    rolloverBalance2: 2004.6999999999998
+                    rolloverBalance: 1677.55
                 },
                 {
                     transactionId: 18,
@@ -328,8 +309,7 @@ const mergedTransactions = {
                     comments: 'Salary Credit',
                     createdDate: '2020-03-27T01:40:08.000+0000',
                     modifiedDate: '2020-03-29T04:35:19.000+0000',
-                    rolloverBalance1: 2506.29,
-                    rolloverBalance2: 2004.6999999999998
+                    rolloverBalance: 2179.14
                 }
             ]
         },
@@ -345,8 +325,7 @@ const mergedTransactions = {
                     comments: 'Transfer to GS',
                     createdDate: '2020-03-27T01:41:23.000+0000',
                     modifiedDate: '2020-03-29T04:35:33.000+0000',
-                    rolloverBalance1: 2506.29,
-                    rolloverBalance2: 1504.6999999999998
+                    rolloverBalance: 1177.55
                 },
                 {
                     transactionId: 20,
@@ -358,8 +337,7 @@ const mergedTransactions = {
                     comments: 'Transfer to GS',
                     createdDate: '2020-03-27T01:41:16.000+0000',
                     modifiedDate: '2020-03-29T04:35:26.000+0000',
-                    rolloverBalance1: 1806.29,
-                    rolloverBalance2: 1504.6999999999998
+                    rolloverBalance: 1479.14
                 }
             ]
         }
@@ -377,8 +355,7 @@ const mergedTransactions = {
                     comments: 'Transfer',
                     createdDate: '2020-03-29T14:09:35.000+0000',
                     modifiedDate: '2020-03-29T14:18:47.000+0000',
-                    rolloverBalance1: 1806.29,
-                    rolloverBalance2: 1504.6999999999998
+                    rolloverBalance: 37193.55
                 },
                 {
                     transactionId: 33,
@@ -390,8 +367,7 @@ const mergedTransactions = {
                     comments: 'Transfer',
                     createdDate: '2020-03-29T14:09:44.000+0000',
                     modifiedDate: '2020-03-29T14:19:00.000+0000',
-                    rolloverBalance1: 1806.29,
-                    rolloverBalance2: 1504.6999999999998
+                    rolloverBalance: 831.29
                 },
                 {
                     transactionId: 34,
@@ -403,8 +379,7 @@ const mergedTransactions = {
                     comments: 'Transfer',
                     createdDate: '2020-03-29T14:09:51.000+0000',
                     modifiedDate: '2020-03-29T14:19:08.000+0000',
-                    rolloverBalance1: 1806.29,
-                    rolloverBalance2: 1504.6999999999998
+                    rolloverBalance: 48262.67
                 }
             ]
         }
@@ -422,8 +397,7 @@ const mergedTransactions = {
                     comments: 'Payment to Banana CC',
                     createdDate: '2020-03-27T01:41:44.000+0000',
                     modifiedDate: '2020-03-29T04:40:08.000+0000',
-                    rolloverBalance1: 1776.1599999999999,
-                    rolloverBalance2: 1504.6999999999998
+                    rolloverBalance: 1449.01
                 }
             ]
         },
@@ -439,8 +413,7 @@ const mergedTransactions = {
                     comments: 'Payment Received',
                     createdDate: '2020-03-29T14:07:20.000+0000',
                     modifiedDate: '2020-03-29T14:07:20.000+0000',
-                    rolloverBalance1: 1776.1599999999999,
-                    rolloverBalance2: 1504.6999999999998
+                    rolloverBalance: 0
                 }
             ]
         }
@@ -458,8 +431,7 @@ const mergedTransactions = {
                     comments: 'Payment to Apple CC',
                     createdDate: '2020-03-27T01:42:27.000+0000',
                     modifiedDate: '2020-03-29T14:52:55.000+0000',
-                    rolloverBalance1: 1454.37,
-                    rolloverBalance2: 1504.6999999999998
+                    rolloverBalance: 1127.22
                 }
             ]
         },
@@ -475,19 +447,15 @@ const mergedTransactions = {
                     comments: 'Payment Received',
                     createdDate: '2020-03-29T14:05:28.000+0000',
                     modifiedDate: '2020-03-29T14:52:59.000+0000',
-                    rolloverBalance1: 1454.37,
-                    rolloverBalance2: 1504.6999999999998
+                    rolloverBalance: 0
                 }
             ]
         }
     ]
 }
 
-// test('group transactions', () => {
-//     // console.log(util.inspect(transactions, false, null, true /* enable colors */))
-//     expect(transactions).toEqual(mergedTransactions);
-// });
-
-test('fake', () => {
-    expect(true).toEqual(true);
+test('transactions pivot', () => {
+    console.log(util.inspect(transactions, false, null, true /* enable colors */))
+    expect(transactions).toEqual(mergedTransactions);
 });
+
